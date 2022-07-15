@@ -91,15 +91,15 @@ setInterval(() => {
 
         dino.classList.remove('animateDino');
         
-        audiogo.play();
-        bgmusic()==null;
-       
-        
-        setTimeout(() =>{
+       audiogo.play();
           audio.pause();
-          
-          
-        }, 1);
+
+        
+        document.onclick = function (r){
+          setTimeout(() =>{
+            window.location.reload();
+          }, 200);
+        } 
 
  
 
